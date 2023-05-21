@@ -1,0 +1,4 @@
+2023-05-21/15:38:47		Entered the elbow_plot method of the KMeansClustering class
+2023-05-21/15:38:48		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2023-05-21/15:38:51		Entered the create_clusters method of the KMeansClustering class
+2023-05-21/15:38:51		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class

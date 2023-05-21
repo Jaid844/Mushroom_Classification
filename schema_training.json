@@ -1,0 +1,31 @@
+{	"SampleFileName": "mushroom_08012020_120000.csv",
+	"LengthOfDateStampInFile": 8,
+	"LengthOfTimeStampInFile": 6,
+	"NumberofColumns" : 23,
+	"ColName": {
+				"capshape": "text",
+				"capsurface": "text",
+				"capcolor": "text",
+				"bruises": "text",
+				"odor": "text",
+				"gillattachment": "text",
+				"gillspacing":"text",
+				"gillsize": "text",
+				"gillcolor": "text",
+				"stalkshape": "text",
+				"stalkroot": "text",
+				"stalksurfaceabovering": "text",
+				"stalksurfacebelowring": "text",
+				"stalkcolorabovering": "text",
+				"stalkcolorbelowring": "text",
+				"veiltype": "text",
+				"veilcolor": "text",
+				"ringnumber": "text",
+				"ringtype": "text",
+				"sporeprintcolor": "text",
+				"population": "text",
+				"habitat": "text",
+				"class" : "text"
+
+	}
+}

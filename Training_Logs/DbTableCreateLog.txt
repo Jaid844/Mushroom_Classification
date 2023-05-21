@@ -1,0 +1,31 @@
+2023-05-17/22:26:24		<Error from server: code=2000 [Syntax error in CQL query] message="line 1:99 no viable alternative at input '%' (... text, capcolor text, bruises[%]...)">
+2023-05-17/22:36:21		<Error from server: code=2000 [Syntax error in CQL query] message="line 1:99 no viable alternative at input '%' (... text, capcolor text, bruises[%]...)">
+2023-05-18/15:53:53		<Error from server: code=2000 [Syntax error in CQL query] message="line 1:99 no viable alternative at input '%' (... text, capcolor text, bruises[%]...)">
+2023-05-18/15:56:12		<Error from server: code=2000 [Syntax error in CQL query] message="line 1:99 no viable alternative at input '%' (... text, capcolor text, bruises[%]...)">
+2023-05-18/16:23:44		Error from server: code=2200 [Invalid query] message="Unknown column 'age' referenced in PRIMARY KEY for table 'training'"
+2023-05-18/16:25:07		Error from server: code=2200 [Invalid query] message="Unknown column 'age' referenced in PRIMARY KEY for table 'training'"
+2023-05-18/16:26:46		Error from server: code=2200 [Invalid query] message="Unknown column 'age' referenced in PRIMARY KEY for table 'training'"
+2023-05-18/16:31:42		Table has been created 
+2023-05-18/16:34:08		Table has been created 
+2023-05-18/16:36:21		Table has been created 
+2023-05-18/16:42:47		Table has been created 
+2023-05-18/16:51:24		Table has been created 
+2023-05-18/16:53:44		Table has been created 
+2023-05-18/16:54:50		Table has been created 
+2023-05-18/16:59:45		Table has been created 
+2023-05-18/17:19:22		Table has been created 
+2023-05-18/17:21:40		log() missing 1 required positional argument: 'log_messaege'
+2023-05-18/17:29:26		Table has been created 
+2023-05-18/17:32:44		Table has been created 
+2023-05-18/20:44:13		Table has been created 
+2023-05-18/21:21:31		Table has been created 
+2023-05-18/21:25:32		Table has been created 
+2023-05-18/22:33:33		<Error from server: code=2000 [Syntax error in CQL query] message="line 1:466 mismatched input '-' expecting ')' (...class text, PRIMARY KEY(cap[-]...)">
+2023-05-18/22:40:32		Table has been created 
+2023-05-19/16:04:55		Table has been created 
+2023-05-19/16:05:30		Table has been created 
+2023-05-19/22:08:15		Error from server: code=2200 [Invalid query] message="Unknown column 'bruises' referenced in PRIMARY KEY for table 'lo'"
+2023-05-19/22:11:59		Error from server: code=2200 [Invalid query] message="Unknown column 'bruises' referenced in PRIMARY KEY for table 'lo'"
+2023-05-19/22:17:04		Table has been created 
+2023-05-20/11:41:12		Table has been created 
+2023-05-20/11:45:03		Table has been created 

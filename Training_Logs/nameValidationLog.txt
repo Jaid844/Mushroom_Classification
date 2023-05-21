@@ -1,0 +1,30 @@
+2023-05-17/22:26:01		[Errno 2] No such file or directory: 'Training_Batch_Files/mushroom_08012006_120010.csv'
+2023-05-17/22:36:11		[Errno 2] No such file or directory: 'Training_Batch_Files/mushroom_08012006_120010.csv'
+2023-05-18/15:51:44		file moved to good _raw directory
+2023-05-18/15:51:48		file moved to good _raw directory
+2023-05-18/15:51:53		file moved to good _raw directory
+2023-05-18/15:51:56		file moved to good _raw directory
+2023-05-18/15:52:25		file moved to good _raw directory
+2023-05-18/15:52:31		file moved to good _raw directory
+2023-05-18/15:52:36		file moved to good _raw directory
+2023-05-18/15:52:42		file moved to good _raw directory
+2023-05-18/15:56:05		file moved to good _raw directory
+2023-05-18/15:56:05		file moved to good _raw directory
+2023-05-18/15:56:05		file moved to good _raw directory
+2023-05-18/15:56:05		file moved to good _raw directory
+2023-05-18/15:57:13		file moved to good _raw directory
+2023-05-18/15:57:13		file moved to good _raw directory
+2023-05-18/15:57:13		file moved to good _raw directory
+2023-05-18/15:57:13		file moved to good _raw directory
+2023-05-18/16:23:37		file moved to good _raw directory
+2023-05-18/16:25:01		file moved to good _raw directory
+2023-05-18/16:26:37		file moved to good _raw directory
+2023-05-18/16:28:20		file moved to good _raw directory
+2023-05-18/16:30:36		file moved to good _raw directory
+2023-05-18/16:33:53		file moved to good _raw directory
+2023-05-18/16:36:14		file moved to good _raw directory
+2023-05-18/16:42:41		file moved to good _raw directory
+2023-05-18/16:51:16		[Errno 13] Permission denied: 'Training_Batch_Files/.ipynb_checkpoints'
+2023-05-18/16:53:38		[Errno 13] Permission denied: 'Training_Batch_Files/.ipynb_checkpoints'
+2023-05-18/16:54:44		file moved to good _raw directory
+2023-05-18/16:59:39		file moved to good _raw directory
