@@ -66,3 +66,12 @@
 2023-05-24/13:15:41		Bad files moved to archive!! Bad folder Deleted!!
 2023-05-24/13:15:41		Validation Operation completed!!
 2023-05-24/13:15:41		Extracting csv file from table
+2023-05-24/20:11:55		Start of Validation on files for prediction!!
+2023-05-24/20:11:55		Start of Prediction
+2023-05-24/20:11:55		End of Prediction
+2023-05-24/20:12:38		Start of Validation on files for prediction!!
+2023-05-24/20:12:38		Start of Prediction
+2023-05-24/20:12:38		End of Prediction
+2023-05-24/20:12:41		Start of Validation on files for prediction!!
+2023-05-24/20:12:41		Start of Prediction
+2023-05-24/20:12:41		End of Prediction

@@ -15,7 +15,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-response = requests.post('http://localhost:5000/', headers={'Content-Type': 'application/json'})
+
 @app.route("/", methods=['GET'])
 @cross_origin()
 def home():
@@ -27,20 +27,21 @@ def home():
 @cross_origin()
 def predict_route():
     try:
-       if request.json is not None:
-           path=request.json['filepath']
-           prediction_validation=Pred(path)
-           prediction_validation.predic()
-           predic_model=predictfrom_model(path)
-           predic_model.predict()
-           return Response('Prediction file created at Prediction_Output_File',headers={'Content-Type': 'application/json'})
-       elif request.form is not None:
+        if request.headers['Content-Type'] == 'application/json':
+            path = request.get_json()['filepath']
+            prediction_validation = Pred(path)
+            prediction_validation.predic()
+            predic_model = predictfrom_model(path)
+            predic_model.predict()
+            return Response('Prediction file created at Prediction_Output_File')
+
+        elif request.form is not None:
             path = request.form['filepath']
             prediction_validation = Pred(path)
             prediction_validation.predic()
             predic_model = predictfrom_model(path)
             predic_model.predict()
-            return Response('Prediction file created at Prediction_Output_File',headers={'Content-Type': 'application/json'})
+            return Response('Prediction file created at Prediction_Output_File')
     except ValueError:
         return Response("Error Occurred! %s" % ValueError)
     except KeyError:
@@ -62,16 +63,16 @@ def trainroute():
 
     except ValueError:
 
-        return Response("Error Occurred! %s" % ValueError,headers={'Content-Type': 'application/json'})
+        return Response("Error Occurred! %s" % ValueError)
 
     except KeyError:
 
-        return Response("Error Occurred! %s" % KeyError,headers={'Content-Type': 'application/json'})
+        return Response("Error Occurred! %s" % KeyError)
 
     except Exception as e:
 
-        return Response("Error Occurred! %s" % e,headers={'Content-Type': 'application/json'})
-    return Response("Training successfull!!",headers={'Content-Type': 'application/json'})
+        return Response("Error Occurred! %s" % e)
+    return Response("Training successfull!!")
 
 
 

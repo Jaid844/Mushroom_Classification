@@ -83,3 +83,23 @@
 2023-05-24/14:01:59		X.shape before imb (625, 61)
 2023-05-24/14:01:59		X.shape after imb (126, 61)
 2023-05-24/14:02:03		Successful End of Training
+2023-05-24/19:54:08		Start of Validation on files for Training!!
+2023-05-24/19:54:09		raw file validated
+2023-05-24/19:54:09		Starting Data Transforamtion!!
+2023-05-24/19:54:09		DataTransformation Completed!!!
+2023-05-24/19:54:09		Creating Training_Database and tables on the basis of given schema!!!
+2023-05-24/19:54:22		Table creation Completed!!
+2023-05-24/19:54:22		Insertion of Data into Table started!!!!
+2023-05-24/19:55:13		Insertion in Table completed!!!
+2023-05-24/19:55:13		Deleting Good Data Folder!!!
+2023-05-24/19:55:13		Good_Data folder deleted!!!
+2023-05-24/19:55:13		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-05-24/19:55:13		Bad files moved to archive!! Bad folder Deleted!!
+2023-05-24/19:55:13		Validation Operation completed!!
+2023-05-24/19:55:13		Extracting csv file from table
+2023-05-24/19:55:22		X.shape before imb (625, 61)
+2023-05-24/19:55:22		X.shape after imb (126, 61)
+2023-05-24/19:55:25		Successful End of Training
+2023-05-24/20:11:55		error [WinError 3] The system cannot find the path specified: ''
+2023-05-24/20:12:38		error [WinError 3] The system cannot find the path specified: 'Prediction_Batch_files'
+2023-05-24/20:12:41		error [WinError 3] The system cannot find the path specified: ''
