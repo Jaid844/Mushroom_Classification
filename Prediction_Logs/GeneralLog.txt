@@ -1,0 +1,114 @@
+2023-05-21/16:35:57		Good raw folder has been deleted
+2023-05-21/16:35:57		Bad raw has been deleted
+2023-05-21/16:37:25		Good raw folder has been deleted
+2023-05-21/16:37:25		Bad raw has been deleted
+2023-05-21/16:37:51		Good raw folder has been deleted
+2023-05-21/16:37:51		Bad raw has been deleted
+2023-05-21/16:38:54		Good raw folder has been deleted
+2023-05-21/16:38:54		Bad raw has been deleted
+2023-05-21/16:40:23		Good raw folder has been deleted
+2023-05-21/16:40:23		Bad raw has been deleted
+2023-05-21/16:42:21		Good raw folder has been deleted
+2023-05-21/16:42:21		Bad raw has been deleted
+2023-05-21/16:45:12		Good raw folder has been deleted
+2023-05-21/16:45:13		Bad raw has been deleted
+2023-05-21/16:46:17		Good raw folder has been deleted
+2023-05-21/16:46:17		Bad raw has been deleted
+2023-05-21/16:46:26		Good raw folder has been deleted
+2023-05-21/16:46:26		Bad raw has been deleted
+2023-05-21/16:47:39		Good raw folder has been deleted
+2023-05-21/16:47:39		Bad raw has been deleted
+2023-05-21/16:48:31		Good raw folder has been deleted
+2023-05-21/16:48:31		Bad raw has been deleted
+2023-05-21/16:50:42		Good raw folder has been deleted
+2023-05-21/16:50:42		Bad raw has been deleted
+2023-05-21/16:51:05		Good raw folder has been deleted
+2023-05-21/16:51:05		Bad raw has been deleted
+2023-05-21/16:52:21		Good raw folder has been deleted
+2023-05-21/16:52:21		Bad raw has been deleted
+2023-05-21/16:55:01		Good raw folder has been deleted
+2023-05-21/16:55:01		Bad raw has been deleted
+2023-05-21/16:58:18		Good raw folder has been deleted
+2023-05-21/16:58:18		Bad raw has been deleted
+2023-05-21/17:00:46		Good raw folder has been deleted
+2023-05-21/17:00:46		Bad raw has been deleted
+2023-05-21/17:02:09		Good raw folder has been deleted
+2023-05-21/17:02:09		Bad raw has been deleted
+2023-05-21/17:04:00		Good raw folder has been deleted
+2023-05-21/17:04:00		Bad raw has been deleted
+2023-05-21/17:17:08		Good raw folder has been deleted
+2023-05-21/17:17:08		Bad raw has been deleted
+2023-05-21/17:20:26		Good raw folder has been deleted
+2023-05-21/17:20:26		Bad raw has been deleted
+2023-05-21/17:21:55		Good raw folder has been deleted
+2023-05-21/17:21:55		Bad raw has been deleted
+2023-05-21/17:23:36		Good raw folder has been deleted
+2023-05-21/17:23:36		Bad raw has been deleted
+2023-05-21/17:25:04		Good raw folder has been deleted
+2023-05-21/17:25:04		Bad raw has been deleted
+2023-05-21/17:28:07		Good raw folder has been deleted
+2023-05-21/17:28:07		Bad raw has been deleted
+2023-05-21/17:28:07		Good raw folder has been deleted
+2023-05-21/17:28:07		[WinError 123] The filename, directory name, or volume label syntax is incorrect: 'PredictionArchivedBadData/BadData_1717:28:0728_2023-05-21'
+2023-05-21/17:29:09		Good raw folder has been deleted
+2023-05-21/17:29:09		Bad raw has been deleted
+2023-05-21/17:29:09		Good raw folder has been deleted
+2023-05-21/17:29:09		[WinError 123] The filename, directory name, or volume label syntax is incorrect: 'PredictionArchivedBadData/BadData_1717:29:0929_2023-05-21'
+2023-05-21/22:33:24		Good raw folder has been deleted
+2023-05-21/22:33:24		Bad raw has been deleted
+2023-05-21/22:35:25		Good raw folder has been deleted
+2023-05-21/22:35:25		Bad raw has been deleted
+2023-05-21/22:35:46		Good raw folder has been deleted
+2023-05-21/22:35:46		Bad raw has been deleted
+2023-05-21/22:37:41		Good raw folder has been deleted
+2023-05-21/22:37:41		Bad raw has been deleted
+2023-05-21/22:37:41		Good raw folder has been deleted
+2023-05-21/22:37:41		[WinError 123] The filename, directory name, or volume label syntax is incorrect: 'PredictionArchivedBadData/BadData_2222:37:4137_2023-05-21'
+2023-05-21/23:10:48		Good raw folder has been deleted
+2023-05-21/23:10:48		Bad raw has been deleted
+2023-05-21/23:11:41		Good raw folder has been deleted
+2023-05-21/23:11:41		Bad raw has been deleted
+2023-05-21/23:13:19		Good raw folder has been deleted
+2023-05-21/23:13:19		Bad raw has been deleted
+2023-05-23/21:20:10		Good raw folder has been deleted
+2023-05-23/21:20:10		Bad raw has been deleted
+2023-05-23/21:20:47		Good raw folder has been deleted
+2023-05-23/21:20:47		[WinError 123] The filename, directory name, or volume label syntax is incorrect: 'PredictionArchivedBadData/BadData_2121:20:4720_2023-05-23'
+2023-05-23/21:21:18		Good raw folder has been deleted
+2023-05-23/21:21:18		Bad raw has been deleted
+2023-05-23/21:33:49		Good raw folder has been deleted
+2023-05-23/21:33:49		Bad raw has been deleted
+2023-05-23/21:35:12		Good raw folder has been deleted
+2023-05-23/21:35:12		[WinError 123] The filename, directory name, or volume label syntax is incorrect: 'PredictionArchivedBadData/BadData_2121:35:1235_2023-05-23'
+2023-05-23/21:35:54		Good raw folder has been deleted
+2023-05-23/21:35:54		Bad raw has been deleted
+2023-05-23/21:38:45		Good raw folder has been deleted
+2023-05-23/21:38:45		[WinError 123] The filename, directory name, or volume label syntax is incorrect: 'PredictionArchivedBadData/BadData_2121:38:4538_2023-05-23'
+2023-05-23/21:43:48		Good raw folder has been deleted
+2023-05-23/21:43:48		Bad raw has been deleted
+2023-05-23/21:44:46		Good raw folder has been deleted
+2023-05-23/21:44:46		[WinError 123] The filename, directory name, or volume label syntax is incorrect: 'PredictionArchivedBadData/BadData_2121:44:4644_2023-05-23'
+2023-05-23/22:22:38		Good raw folder has been deleted
+2023-05-23/22:22:38		Bad raw has been deleted
+2023-05-23/22:24:08		Good raw folder has been deleted
+2023-05-23/22:24:08		[WinError 123] The filename, directory name, or volume label syntax is incorrect: 'PredictionArchivedBadData/BadData_2222:24:0824_2023-05-23'
+2023-05-23/22:28:13		Good raw folder has been deleted
+2023-05-23/22:28:13		Bad raw has been deleted
+2023-05-23/22:29:26		Good raw folder has been deleted
+2023-05-23/22:29:26		[WinError 123] The filename, directory name, or volume label syntax is incorrect: 'PredictionArchivedBadData/BadData_2222:29:2629_2023-05-23'
+2023-05-23/22:30:10		Good raw folder has been deleted
+2023-05-23/22:30:10		Bad raw has been deleted
+2023-05-23/22:31:47		Good raw folder has been deleted
+2023-05-23/22:31:47		[WinError 123] The filename, directory name, or volume label syntax is incorrect: 'PredictionArchivedBadData/BadData_2222:31:4731_2023-05-23'
+2023-05-23/22:39:25		Good raw folder has been deleted
+2023-05-23/22:39:25		Bad raw has been deleted
+2023-05-23/22:41:11		Good raw folder has been deleted
+2023-05-23/22:41:11		[WinError 123] The filename, directory name, or volume label syntax is incorrect: 'PredictionArchivedBadData/BadData_2222:41:1141_2023-05-23'
+2023-05-24/13:04:32		Good raw folder has been deleted
+2023-05-24/13:04:32		Bad raw has been deleted
+2023-05-24/13:05:38		Good raw folder has been deleted
+2023-05-24/13:05:38		[WinError 123] The filename, directory name, or volume label syntax is incorrect: 'PredictionArchivedBadData/BadData_1313:05:3805_2023-05-24'
+2023-05-24/13:14:50		Good raw folder has been deleted
+2023-05-24/13:14:50		Bad raw has been deleted
+2023-05-24/13:15:41		Good raw folder has been deleted
+2023-05-24/13:15:41		[WinError 123] The filename, directory name, or volume label syntax is incorrect: 'PredictionArchivedBadData/BadData_1313:15:4115_2023-05-24'

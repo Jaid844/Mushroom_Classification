@@ -17,7 +17,7 @@ class prediction_validation:
 
     def valuesfrom_schema(self):
         try:
-            self.file=open('Prediction_log/Validation','w')
+            self.file=open('Prediction_Logs/Validation.txt','w')
             self.log.log(self.file,"entred into values section of file log")
             with open(self.schema,'r') as f:
                 dic=json.load(f)
@@ -33,7 +33,7 @@ class prediction_validation:
 
             return Length_of_time,length_of_date,num_col,col_name
         except Exception as e:
-            self.file=open('Prediction_log/Validation','w')
+            self.file=open('Prediction_Logs/Validation.txt','w')
             self.log.log(self.file,str(e))
 
     def manualRegexCreation(self):
@@ -63,13 +63,13 @@ class prediction_validation:
             path = os.path.join("Prediction_Raw_Files_Validated/", "BAD_Raw/")
             if not os.path.isdir(path):
                 os.makedirs(path)
-            self.file = open('Prediction_log/Validation', 'w')
+            self.file = open('Prediction_Logs/Validation.txt', 'w')
             self.log.log(self.file, "Good and Bad Directory created")
             self.file.close()
 
 
         except Exception as e:
-            self.file = open('Prediction_log/Validation', 'w')
+            self.file = open('Prediction_Logs/Validation.txt', 'w')
             self.log.log(self.file, str(e))
             self.file.close()
 
@@ -147,7 +147,7 @@ class prediction_validation:
                     splitatdot=re.split('_',splitatdot[0])
                     if len(splitatdot[1])==length_date:
                         if len(splitatdot[2])==length_time:
-                            shutil.copy("Prediction_Batch_files/"+f,"Prediction_Raw_Files_Validated/Good_Raw")
+                            shutil.copy("Prediction_Batch_file/"+f,"Prediction_Raw_Files_Validated/Good_Raw")
                             self.log.log(self.file,"file moved to good directory")
                         else:
                              shutil.copy("Prediction_Batch_files/" + f, "Prediction_Raw_Files_Validated/Bad_Raw/")
@@ -204,7 +204,7 @@ class prediction_validation:
        except Exception as e:
            f = open("Prediction_Logs/missingValuesInColumn.txt", 'a+')
            self.log.log(f, str(e))
-       f.close()
+
 
     def deletePredictionFile(self):
 

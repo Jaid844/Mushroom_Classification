@@ -4,6 +4,7 @@ from kneed import KneeLocator
 import matplotlib.pyplot as plt
 from file_operation.file_operation import file_op
 
+
 class Cluster:
     def __init__(self):
         self.log=Applogger()

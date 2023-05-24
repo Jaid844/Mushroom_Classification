@@ -1,0 +1,42 @@
+2023-05-21/16:37:25		[Errno 2] No such file or directory: 'Prediction_Batch_files/mushroom_08012006_120010.csv'
+2023-05-21/16:37:51		[Errno 2] No such file or directory: 'Prediction_Batch_files/mushroom_08012006_120010.csv'
+2023-05-21/16:38:54		[Errno 2] No such file or directory: 'Prediction_Batch_files/mushroom_08012006_120010.csv'
+2023-05-21/16:40:23		[Errno 2] No such file or directory: 'Prediction_Batch_files/mushroom_08012006_120010.csv'
+2023-05-21/16:42:21		[Errno 2] No such file or directory: 'Prediction_Batch_files/mushroom_08012006_120010.csv'
+2023-05-21/16:46:17		file moved to good directory
+2023-05-21/16:46:37		file moved to good directory
+2023-05-21/16:47:39		file moved to good directory
+2023-05-21/16:48:31		file moved to good directory
+2023-05-21/16:50:42		file moved to good directory
+2023-05-21/16:51:05		file moved to good directory
+2023-05-21/16:52:21		file moved to good directory
+2023-05-21/16:55:01		file moved to good directory
+2023-05-21/16:58:18		file moved to good directory
+2023-05-21/17:00:46		file moved to good directory
+2023-05-21/17:02:09		file moved to good directory
+2023-05-21/17:04:00		file moved to good directory
+2023-05-21/17:17:08		file moved to good directory
+2023-05-21/17:20:26		file moved to good directory
+2023-05-21/17:21:55		file moved to good directory
+2023-05-21/17:23:36		file moved to good directory
+2023-05-21/17:25:04		file moved to good directory
+2023-05-21/17:28:07		file moved to good directory
+2023-05-21/17:29:09		file moved to good directory
+2023-05-21/22:33:24		file moved to good directory
+2023-05-21/22:35:25		file moved to good directory
+2023-05-21/22:35:46		file moved to good directory
+2023-05-21/22:37:41		file moved to good directory
+2023-05-21/23:10:48		file moved to good directory
+2023-05-21/23:11:41		file moved to good directory
+2023-05-21/23:13:19		file moved to good directory
+2023-05-23/21:20:10		file moved to good directory
+2023-05-23/21:21:18		file moved to good directory
+2023-05-23/21:33:49		file moved to good directory
+2023-05-23/21:35:54		file moved to good directory
+2023-05-23/21:43:48		file moved to good directory
+2023-05-23/22:22:38		file moved to good directory
+2023-05-23/22:28:13		file moved to good directory
+2023-05-23/22:30:10		file moved to good directory
+2023-05-23/22:39:25		file moved to good directory
+2023-05-24/13:04:32		file moved to good directory
+2023-05-24/13:14:50		file moved to good directory

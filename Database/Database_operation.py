@@ -2,9 +2,8 @@ from cassandra.cluster import Cluster
 from cassandra.auth import PlainTextAuthProvider
 from os import listdir
 import csv
-from raw.Rawfile import rawdata
 from log.applogger import Applogger
-from cassandra.query import SimpleStatement
+
 
 
 
@@ -24,13 +23,15 @@ class db:
         self.log = Applogger()
     def connection(self):
         try:
+            self.file = open("Training_Logs/DataBaseConnectionLog.txt", 'a+')
             cloud_config = {
-                'secure_connect_bundle': r'C:\Users\91639\Downloads\secure-connect-ineuron.zip'
+                'secure_connect_bundle': r'Database_cred/secure-connect-ineuron.zip'
             }
             auth_provider = PlainTextAuthProvider('DFuaqgwrhjzNIxpEZZpUpbgx',
                                                   'lBES3bwUE0o2Nk2rfgLteEwSsOi0Zo3vdKpiRuAhMclqWqPwNvp6cLUgYBN-3osp0R8GfKNmBGP3zp7w10owex.Czt-ceCIcsOqlSYzZCKe9WLKPL+s4kGWCP0aHpl5q')
             cluster = Cluster(cloud=cloud_config, auth_provider=auth_provider)
             session = cluster.connect('ineuron')
+            self.log.log(self.file,"connection established")
             return session
         except Exception as e:
             self.file = open("Training_Logs/DataBaseConnectionLog.txt", 'a+')
@@ -41,26 +42,26 @@ class db:
     def table_create(self,column):
         try:
             session = self.connection()
-            querry_check = "SELECT table_name FROM system_schema.tables WHERE keyspace_name = 'mushroom' AND table_name = 'Train'"
+            querry_check = "SELECT table_name FROM system_schema.tables WHERE keyspace_name = 'mushroom' AND table_name = 'TrainingFiledb'"
             result_set = session.execute(querry_check)
             if result_set:
                 file = open("Training_Logs/DataBaseConnectionLog.txt", 'a+')
                 self.log.log(file,"Database exist")
             else:
                  try:
-                     querry = "ALTER TABLE Train ADD  ("
+                     querry = "ALTER TABLE TrainingFiledb ADD  ("
                      for key in column.keys():
                          type = column[key]
                          querry += key + " " + type + ", "
                      querry = querry[:-2]
                      session.execute(querry)
                  except :
-                        querry = "CREATE TABLE IF NOT EXISTS mushroom.Train ("
+                        querry = "CREATE TABLE IF NOT EXISTS mushroom.TrainingFiledb ("
                         for key in column.keys():
                             type = column[key]
                             querry += key + " " + type + ", "
                         querry = querry[:-2]
-                        querry += ", PRIMARY KEY(bruises,capcolor,capshape,capsurface,class),gillattachment,gillcolor,gillsize,gillspacing,habitat,odor,population,ringnumber,ringtype,sporeprintcolor,stalkcolorabovering,stalkcolorbelowring,stalkroot,stalkshape,stalksurfaceabovering,stalksurfacebelowring,veilcolor,veiltype))"
+                        querry += ", PRIMARY KEY(bruises,capcolor,class,capshape,capsurface,gillattachment,gillcolor,gillsize,gillspacing,habitat,odor,population,ringnumber,ringtype,sporeprintcolor,stalkcolorabovering,stalkcolorbelowring,stalkroot,stalkshape,stalksurfaceabovering,stalksurfacebelowring,veilcolor,veiltype))"
                         session.execute(querry)
                         file = open("Training_Logs/DbTableCreateLog.txt", 'a+')
                         self.log.log(file,"Table has been created ")
@@ -75,11 +76,11 @@ class db:
 
     def adding_data(self,col):
         try:
-            self.good = "Training_file/Good_file"
+            self.good = "Training_Batch_Files"
             session = self.connection()
-            file = [f for f in listdir("Training_file/Good_file")]
+            file = [f for f in listdir("Training_Batch_Files")]
             column_names = ", ".join(col.keys())
-            insert_query = "INSERT INTO mushroom.Train ({columns}) VALUES"
+            insert_query = "INSERT INTO mushroom.TrainingFiledb({columns}) VALUES"
             formatted_query = insert_query.format(columns=column_names)
             for tile in file:
                 with open(self.good + '/' + tile, 'r') as f:
@@ -98,7 +99,6 @@ class db:
 
     def filefromdb(self):
         self.filename = "Inputfile.csv"
-        self.filefromdb = "FileDB"
         #log_file = open("Training_Logs/ExportToCsv.txt", 'a+')
         try:
             session = self.connection()
@@ -106,7 +106,7 @@ class db:
             table = 'mytable'
             #querry_row="SELECT * FROM system_schema.columns WHERE keyspace_name = 'mushroom' AND table_name = 'mytable';"
             #querry_row=f"SELECT column_name  FROM system_schema.columns WHERE keyspace_name='{keyspace}' AND table_name='{table}'"
-            query = "SELECT * FROM mushroom.mytable "
+            query = "SELECT * FROM mushroom.TrainingFiledb "
             result=session.execute(query)
             #column_name = ['ringtype','habitat'	,'stalksurfaceabovering','stalkcolorbelowring','stalkroot','capcolor','sporeprintcolor','odor','stalkshape','stalksurfacebelowring','population','bruises','gillspacing','stalkcolorabovering','veilcolor','gillcolor','ringnumber','capsurface','gillsize','veiltype','capshape','gillattachment','class']
             #column_name=[row.column_name for row in result ]
@@ -121,15 +121,13 @@ class db:
             csvfile.writerow(column_name)
             csvfile.writerows(column_data)
 
-            #log_file = open("Training_Logs/ExportToCsv.txt", 'a+')
-            #self.log.log(log_file, "File exported successfully!!!")
-            #log_file.close()
+            log_file = open("Training_Logs/ExportToCsv.txt", 'a+')
+            self.log.log(log_file, "File exported successfully!!!")
+            log_file.close()
         except Exception as e:
-              raise  e
-              #log_file = open("Training_Logs/ExportToCsv.txt", 'a+')
-              #self.log.log(log_file, "File exporting failed. Error : %s" % e)
-              #log_file.close()
-
+              log_file = open("Training_Logs/ExportToCsv.txt", 'a+')
+              self.log.log(log_file, "File exporting failed. Error : %s" % e)
+              log_file.close()
 
 
 
@@ -147,11 +145,12 @@ class db:
 
 
 d=db()
-r=rawdata(r'C:\Users\91639\Desktop\Mushroom\Training_Batch_Files')
-length_of_time,length_of_date,no_of_col,col_name=r.valuesfromschem()
+#r=rawdata(r'C:\Users\91639\Desktop\Mushroom\Training_Batch_Files')
+##length_of_time,length_of_date,no_of_col,col_name=r.valuesfromschem()
 #d.table_create(col_name)
 #d.adding_data(col_name)
-d.filefromdb()
+#d.filefromdb()
+d.connection()
 #d.t()
 
 

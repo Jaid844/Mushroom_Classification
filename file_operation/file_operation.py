@@ -7,13 +7,13 @@ class file_op:
     def __init__(self):
         self.model='models/'
         self.log=Applogger()
-        self.file = open("Training_Logs/cluser", 'w')
+        self.file = open("Training_Logs/cluster.txt", 'w')
 
 
 
     def save_model(self,model, filename):
         try:
-            self.file = open("Training_Logs/cluser", 'w')
+            self.file = open("Training_Logs/cluster.txt", 'w')
             self.log.log(self.file, 'Entered the save_model method of the File_Operation class')
             path=os.path.join(self.model,filename)
             if os.path.isdir(path):

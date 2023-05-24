@@ -29,3 +29,31 @@
 2023-05-19/22:17:04		Table has been created 
 2023-05-20/11:41:12		Table has been created 
 2023-05-20/11:45:03		Table has been created 
+2023-05-21/22:18:49		Table has been created 
+2023-05-21/23:03:23		Table has been created 
+2023-05-21/23:05:29		Table has been created 
+2023-05-23/21:23:55		Table has been created 
+2023-05-23/21:25:15		Table has been created 
+2023-05-23/21:40:14		('Unable to connect to any servers', {'8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:a72e77bb-dd58-4cbb-88a9-df424c1bbbe5': OperationTimedOut('errors=None, last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:9c448867-1817-4b28-bfd4-aeef64e94757': OperationTimedOut('errors=None, last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:6e307be2-c749-45f0-8541-a89abb0984e3': OperationTimedOut('errors=None, last_host=None')})
+2023-05-23/21:42:01		('Unable to connect to any servers', {'8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:6e307be2-c749-45f0-8541-a89abb0984e3': OperationTimedOut('errors=None, last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:a72e77bb-dd58-4cbb-88a9-df424c1bbbe5': OperationTimedOut('errors=Timed out creating connection (5 seconds), last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:9c448867-1817-4b28-bfd4-aeef64e94757': OperationTimedOut('errors=Timed out creating connection (5 seconds), last_host=None')})
+2023-05-23/22:18:18		Unable to connect to the metadata service at https://8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console. 
+2023-05-23/22:18:22		Unable to connect to the metadata service at https://8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console. 
+2023-05-23/22:36:23		Table has been created 
+2023-05-23/22:37:55		Table has been created 
+2023-05-23/22:43:59		Table has been created 
+2023-05-24/12:47:25		Table has been created 
+2023-05-24/12:49:05		Table has been created 
+2023-05-24/12:51:00		Table has been created 
+2023-05-24/12:59:59		Table has been created 
+2023-05-24/13:08:38		('Unable to connect to any servers', {'8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:9c448867-1817-4b28-bfd4-aeef64e94757': OperationTimedOut('errors=None, last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:a72e77bb-dd58-4cbb-88a9-df424c1bbbe5': OperationTimedOut('errors=Timed out creating connection (5 seconds), last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:6e307be2-c749-45f0-8541-a89abb0984e3': OperationTimedOut('errors=None, last_host=None')})
+2023-05-24/13:11:16		Table has been created 
+2023-05-24/13:17:09		Table has been created 
+2023-05-24/13:20:12		Table has been created 
+2023-05-24/13:28:37		Table has been created 
+2023-05-24/13:31:13		Table has been created 
+2023-05-24/13:33:52		Table has been created 
+2023-05-24/13:46:57		Table has been created 
+2023-05-24/13:48:49		Table has been created 
+2023-05-24/13:51:30		Table has been created 
+2023-05-24/13:57:59		Table has been created 
+2023-05-24/14:00:55		Table has been created 

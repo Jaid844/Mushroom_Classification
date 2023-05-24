@@ -31,11 +31,12 @@ class rawdata():
             file=open("Training_Logs/validation_file",'a+')
             message="length of date is::%s "%length_of_date+"\t"+"length of time is::%s "%length_of_time+'/t'+"no of column::%s"%no_of_col+'\n'
             self.log.log(file,"length of column is ")
+            return length_of_time, length_of_date, no_of_col, col_name
         except Exception as e:
-            file=open("Training_Logs/validation_file",'a+')
+            file=open("Training_Logs/validation_file.txt",'a+')
             self.log.log(file,str(e))
 
-        return length_of_time,length_of_date,no_of_col,col_name
+
 
 
 
@@ -52,7 +53,7 @@ class rawdata():
                os.makedirs(path)
            path=os.path.join("Trainingfile","Bad_file/")
            if not os.path.isdir(path):
-               os.makedir(path)
+               os.makedirs(path)
 
        except Exception as e:
            file=open('Training_Logs/validation_file.txt','a+')
@@ -62,8 +63,8 @@ class rawdata():
         try:
             file=open("Training_Logs/validation_file",'a+')
             path='Training_file'
-            if os.path.isdir(path,'Good_file/'):
-                shutil.rmtree(path,'Good_file/')
+            if os.path.isdir(path+'Good_file/'):
+                shutil.rmtree(path+'Good_file/')
             self.log.log(file,"good directory has been deleted")
             file.close()
         except Exception as e:
@@ -75,14 +76,18 @@ class rawdata():
         try:
             file=open("Training_Logs/validation_file",'a+')
             path = 'Training_file'
-            if os.path.isdir(path,'Bad_file/'):
-                shutil.rmtree(path,'Bad_file/')
-            self.log.log((file,"bad directory has been removed"))
+            if os.path.isdir(path+ 'Bad_file/'):
+                shutil.rmtree(path+ 'Bad_file/')
+            self.log.log(file,"bad directory has been removed")
             file.close()
 
         except Exception as e:
             file = open("Training_Logs/validation_file.txt", 'a+')
             self.log.log(file,str(e))
+
+
+
+
 
 
     def movefiletoarchieve(self):
@@ -97,7 +102,7 @@ class rawdata():
                     os.makedirs(path)
                 path='Archeivefiles/Bad_file'+str(date)+'_'+str(time)
                 if not os.path.isdir(path):
-                   os.makedir(path)
+                   os.makedirs(path)
                 files=os.listdir(source)
                 for f in files:
                    if f not in os.listdir(path):
@@ -190,4 +195,17 @@ class rawdata():
 
 
 
+    def delete_modelfolder(self):
+        directory = 'models'
+        try:
+            for folder_name in os.listdir(directory):
+                folder_path = os.path.join(directory, folder_name)
+                if os.path.isdir(folder_path):
+                    shutil.rmtree(folder_path)
+        except Exception as e:
+            raise e
 
+
+
+#c=rawdata('path')
+#c.delete_modelfolder()

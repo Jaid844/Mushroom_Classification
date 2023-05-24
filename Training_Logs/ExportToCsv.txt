@@ -26,3 +26,31 @@
 2023-05-20/14:04:40		File exported successfully!!!
 2023-05-20/14:05:49		File exported successfully!!!
 2023-05-20/14:09:16		File exporting failed. Error : log() missing 1 required positional argument: 'log_messaege'
+2023-05-21/22:27:44		File exported successfully!!!
+2023-05-21/23:07:28		File exported successfully!!!
+2023-05-23/21:25:01		File exported successfully!!!
+2023-05-23/21:26:23		File exported successfully!!!
+2023-05-23/21:41:36		File exported successfully!!!
+2023-05-23/21:42:42		File exported successfully!!!
+2023-05-23/22:18:18		File exporting failed. Error : Unable to connect to the metadata service at https://8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console. 
+2023-05-23/22:18:23		File exporting failed. Error : Unable to connect to the metadata service at https://8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console. 
+2023-05-23/22:37:41		File exported successfully!!!
+2023-05-23/22:39:25		File exported successfully!!!
+2023-05-23/22:45:21		File exported successfully!!!
+2023-05-24/12:48:35		File exported successfully!!!
+2023-05-24/12:50:09		File exported successfully!!!
+2023-05-24/12:54:07		File exporting failed. Error : ('Unable to connect to any servers', {'8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:6e307be2-c749-45f0-8541-a89abb0984e3': OperationTimedOut('errors=None, last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:a72e77bb-dd58-4cbb-88a9-df424c1bbbe5': OSError(None, "Tried connecting to [('34.93.151.161', 29042)]. Last error: timed out"), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:9c448867-1817-4b28-bfd4-aeef64e94757': OSError(None, "Tried connecting to [('34.93.151.161', 29042)]. Last error: _ssl.c:1114: The handshake operation timed out")})
+2023-05-24/13:03:14		File exported successfully!!!
+2023-05-24/13:05:46		File exported successfully!!!
+2023-05-24/13:09:52		File exported successfully!!!
+2023-05-24/13:12:45		File exported successfully!!!
+2023-05-24/13:18:15		File exported successfully!!!
+2023-05-24/13:21:16		File exported successfully!!!
+2023-05-24/13:29:53		File exported successfully!!!
+2023-05-24/13:32:15		File exported successfully!!!
+2023-05-24/13:35:15		File exported successfully!!!
+2023-05-24/13:48:12		File exported successfully!!!
+2023-05-24/13:49:52		File exported successfully!!!
+2023-05-24/13:52:30		File exported successfully!!!
+2023-05-24/13:58:55		File exported successfully!!!
+2023-05-24/14:01:59		File exported successfully!!!

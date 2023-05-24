@@ -1,0 +1,33 @@
+2023-05-23/21:20:28		Error happened ('Unable to connect to any servers', {'8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:9c448867-1817-4b28-bfd4-aeef64e94757': OperationTimedOut('errors=None, last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:6e307be2-c749-45f0-8541-a89abb0984e3': OperationTimedOut('errors=None, last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:a72e77bb-dd58-4cbb-88a9-df424c1bbbe5': OperationTimedOut('errors=Timed out creating connection (5 seconds), last_host=None')}) 
+2023-05-23/21:20:47		Error happened ('Unable to connect to any servers', {'8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:a72e77bb-dd58-4cbb-88a9-df424c1bbbe5': OperationTimedOut('errors=None, last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:9c448867-1817-4b28-bfd4-aeef64e94757': OperationTimedOut('errors=None, last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:6e307be2-c749-45f0-8541-a89abb0984e3': OperationTimedOut('errors=Timed out creating connection (5 seconds), last_host=None')}) 
+2023-05-23/21:21:12		Error happened ('Unable to connect to any servers', {'8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:6e307be2-c749-45f0-8541-a89abb0984e3': OperationTimedOut('errors=None, last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:a72e77bb-dd58-4cbb-88a9-df424c1bbbe5': OperationTimedOut('errors=None, last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:9c448867-1817-4b28-bfd4-aeef64e94757': OperationTimedOut('errors=None, last_host=None')}) 
+2023-05-24/12:44:04		connection established
+2023-05-24/12:45:08		connection established
+2023-05-24/12:46:22		connection established
+2023-05-24/12:48:44		connection established
+2023-05-24/12:55:35		Error happened ('Unable to connect to any servers', {'8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:9c448867-1817-4b28-bfd4-aeef64e94757': OperationTimedOut('errors=Timed out creating connection (5 seconds), last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:a72e77bb-dd58-4cbb-88a9-df424c1bbbe5': OperationTimedOut('errors=Timed out creating connection (5 seconds), last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:6e307be2-c749-45f0-8541-a89abb0984e3': OperationTimedOut('errors=Timed out creating connection (5 seconds), last_host=None')}) 
+2023-05-24/12:47:06		connection established
+2023-05-24/12:58:02		Error happened ('Unable to connect to any servers', {'8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:6e307be2-c749-45f0-8541-a89abb0984e3': OSError(None, "Tried connecting to [('34.93.36.76', 29042)]. Last error: timed out"), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:a72e77bb-dd58-4cbb-88a9-df424c1bbbe5': OSError(None, "Tried connecting to [('34.93.151.161', 29042)]. Last error: timed out"), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:9c448867-1817-4b28-bfd4-aeef64e94757': OSError(None, "Tried connecting to [('34.93.151.161', 29042)]. Last error: _ssl.c:1114: The handshake operation timed out")}) 
+2023-05-24/12:57:28		connection established
+2023-05-24/13:04:38		connection established
+2023-05-24/13:04:48		connection established
+2023-05-24/13:05:46		connection established
+2023-05-24/12:59:45		connection established
+2023-05-24/13:07:17		connection established
+2023-05-24/13:10:25		connection established
+2023-05-24/12:59:15		connection established
+2023-05-24/13:14:55		connection established
+2023-05-24/13:15:00		connection established
+2023-05-24/13:15:57		Error happened ('Unable to connect to any servers', {'8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:6e307be2-c749-45f0-8541-a89abb0984e3': OperationTimedOut('errors=None, last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:9c448867-1817-4b28-bfd4-aeef64e94757': OperationTimedOut('errors=None, last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:a72e77bb-dd58-4cbb-88a9-df424c1bbbe5': OperationTimedOut('errors=Timed out creating connection (5 seconds), last_host=None')}) 
+2023-05-24/13:10:57		connection established
+2023-05-24/13:10:39		connection established
+2023-05-24/13:27:37		connection established
+2023-05-24/13:27:16		connection established
+2023-05-24/13:46:36		connection established
+2023-05-24/13:46:15		connection established
+2023-05-24/13:57:43		connection established
+2023-05-24/13:57:21		connection established
+2023-05-24/14:00:42		connection established
+2023-05-24/14:00:25		connection established
+2023-05-24/14:13:29		connection established
+2023-05-24/14:19:00		connection established

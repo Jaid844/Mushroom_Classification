@@ -1,10 +1,13 @@
 from log.applogger import Applogger
 import pandas as pd
-from sklearn.preprocessing import StandardScaler
 from Dataingestion.Datafolder import Data
 import random
 import numpy as np
 from imblearn.under_sampling import RandomUnderSampler
+import os
+from imblearn.under_sampling import ClusterCentroids
+
+
 class preprocess:
     def __init__(self):
         self.log=Applogger()
@@ -100,7 +103,7 @@ class preprocess:
 
     def encodeCategoricalValues(self,data):
 
-        data["class"] = data["class"].map({"'p'": 1, "'e'": 2})
+        data["class"] = data["class"].map({'p': 1, 'e': 2})
 
         for column in data.drop(['class'],axis=1).columns:
                data = pd.get_dummies(data, columns=[column])
@@ -111,7 +114,7 @@ class preprocess:
 
 
         for column in data.columns:
-            data = pd.get_dummies(data, columns=[column],drop_first=True)
+            data = pd.get_dummies(data, columns=[column])
 
         return data
 
@@ -123,3 +126,20 @@ class preprocess:
         random.shuffle(target_column)
         balanced_data['class'] = target_column
         return balanced_data
+
+    def deletePredictionFile(self):
+
+        if os.path.exists('Prediction_Output_File/Predictions.csv'):
+            os.remove('Prediction_Output_File/Predictions.csv')
+
+
+
+    def randomer(self,data):
+        for columns in data.columns:
+            column_data=data[columns]
+            randomized_data = column_data.sample(frac=1, random_state=42)
+            data[columns]=randomized_data.values
+        return data
+
+
+

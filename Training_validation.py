@@ -23,7 +23,7 @@ class Training_validation:
               self.log.log(self.file_object, "raw file validated")
 
               self.log.log(self.file_object, "Starting Data Transforamtion!!")
-              self.transform.replace()
+              #self.transform.replace()
 
               self.log.log(self.file_object, "DataTransformation Completed!!!")
 
@@ -53,8 +53,8 @@ class Training_validation:
 
 
 
-t=Training_validation(r'C:\Users\91639\Desktop\Mushroom\Training_Batch_Files')
-t.validation()
+#t=Training_validation(r'C:\Users\91639\Desktop\Mushroom\Training_Batch_Files')
+#t.validation()
 
 
 

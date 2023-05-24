@@ -18,7 +18,7 @@ class model_finder:
               self.param_grid = {"kernel": ['rbf', 'sigmoid'],
                                  "C": [0.1, 0.5, 1.0],
                                  "random_state": [0, 100, 200, 300]}
-              self.grid=GridSearchCV(estimator=self.svm,param_grid=self.param_grid,cv=5,verbose=3)
+              self.grid=GridSearchCV(estimator=self.svm,param_grid=self.param_grid,cv=3,verbose=3)
               self.grid.fit(train_X,train_Y)
 
               self.kernel=self.grid.best_params_['kernel']
@@ -42,9 +42,9 @@ class model_finder:
           try:
               self.file = open('Training_Logs/model_training', 'w')
               self.log.log(self.file, "entered into Decission Tree classifer model")
-              self.param_grid={'criterion':['gini', 'entropy', 'log_loss'],
+              self.param_grid={'criterion':['gini', 'entropy'],#log_loss
                                'splitter':['best', 'random']}
-              self.grid=GridSearchCV(estimator=self.DT,param_grid=self.param_grid,cv=5,verbose=3)
+              self.grid=GridSearchCV(estimator=self.DT,param_grid=self.param_grid,cv=3,verbose=3)
               self.grid.fit(train_x, train_y)
               self.citreion=self.grid.best_params_['criterion']
               self.splitter=self.grid.best_params_['splitter']

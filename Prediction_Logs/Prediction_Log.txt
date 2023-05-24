@@ -1,0 +1,68 @@
+2023-05-23/22:30:10		Start of Validation on files for prediction!!
+2023-05-23/22:30:10		Raw Data Validation Complete!!
+2023-05-23/22:30:10		DataTransformation Complete
+2023-05-23/22:30:10		Creating Prediction_Database and tables on the basis of given schema!!!
+2023-05-23/22:30:23		Table creation Completed!!
+2023-05-23/22:30:23		Insertion of Data into Table started!!!!
+2023-05-23/22:31:47		Insertion in Table completed!!!
+2023-05-23/22:31:47		Deleting Good Data Folder!!!
+2023-05-23/22:31:47		Good_Data folder deleted!!!
+2023-05-23/22:31:47		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-05-23/22:31:47		Bad files moved to archive!! Bad folder Deleted!!
+2023-05-23/22:31:47		Validation Operation completed!!
+2023-05-23/22:31:47		Extracting csv file from table
+2023-05-23/22:31:58		Start of Prediction
+2023-05-23/22:31:58		Error occured while running the prediction!! Error:: 
+2023-05-23/22:32:40		Start of Prediction
+2023-05-23/22:32:40		Error occured while running the prediction!! Error:: 
+2023-05-23/22:39:25		Start of Validation on files for prediction!!
+2023-05-23/22:39:25		Raw Data Validation Complete!!
+2023-05-23/22:39:25		DataTransformation Complete
+2023-05-23/22:39:25		Creating Prediction_Database and tables on the basis of given schema!!!
+2023-05-23/22:39:35		Table creation Completed!!
+2023-05-23/22:39:35		Insertion of Data into Table started!!!!
+2023-05-23/22:41:11		Insertion in Table completed!!!
+2023-05-23/22:41:11		Deleting Good Data Folder!!!
+2023-05-23/22:41:11		Good_Data folder deleted!!!
+2023-05-23/22:41:11		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-05-23/22:41:11		Bad files moved to archive!! Bad folder Deleted!!
+2023-05-23/22:41:11		Validation Operation completed!!
+2023-05-23/22:41:11		Extracting csv file from table
+2023-05-23/22:41:20		Start of Prediction
+2023-05-23/22:41:20		End of Prediction
+2023-05-23/22:37:46		Start of Prediction
+2023-05-23/22:37:46		End of Prediction
+2023-05-23/22:36:15		Start of Prediction
+2023-05-23/22:36:15		End of Prediction
+2023-05-24/12:45:10		Start of Prediction
+2023-05-24/12:45:10		Error occured while running the prediction!! Error:: Cannot save file into a non-existent directory: ''preprocessing_data'
+2023-05-24/12:46:23		Start of Prediction
+2023-05-24/12:46:23		Error occured while running the prediction!! Error:: Cannot save file into a non-existent directory: ''preprocessing_data'
+2023-05-24/13:04:32		Start of Validation on files for prediction!!
+2023-05-24/13:04:32		Raw Data Validation Complete!!
+2023-05-24/13:04:32		DataTransformation Complete
+2023-05-24/13:04:32		Creating Prediction_Database and tables on the basis of given schema!!!
+2023-05-24/13:04:38		Table creation Completed!!
+2023-05-24/13:04:38		Insertion of Data into Table started!!!!
+2023-05-24/13:05:38		Insertion in Table completed!!!
+2023-05-24/13:05:38		Deleting Good Data Folder!!!
+2023-05-24/13:05:38		Good_Data folder deleted!!!
+2023-05-24/13:05:38		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-05-24/13:05:38		Bad files moved to archive!! Bad folder Deleted!!
+2023-05-24/13:05:38		Validation Operation completed!!
+2023-05-24/13:05:38		Extracting csv file from table
+2023-05-24/13:05:46		Start of Prediction
+2023-05-24/13:05:47		End of Prediction
+2023-05-24/13:14:50		Start of Validation on files for prediction!!
+2023-05-24/13:14:50		Raw Data Validation Complete!!
+2023-05-24/13:14:50		DataTransformation Complete
+2023-05-24/13:14:50		Creating Prediction_Database and tables on the basis of given schema!!!
+2023-05-24/13:14:55		Table creation Completed!!
+2023-05-24/13:14:55		Insertion of Data into Table started!!!!
+2023-05-24/13:15:41		Insertion in Table completed!!!
+2023-05-24/13:15:41		Deleting Good Data Folder!!!
+2023-05-24/13:15:41		Good_Data folder deleted!!!
+2023-05-24/13:15:41		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-05-24/13:15:41		Bad files moved to archive!! Bad folder Deleted!!
+2023-05-24/13:15:41		Validation Operation completed!!
+2023-05-24/13:15:41		Extracting csv file from table
