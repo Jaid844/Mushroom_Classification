@@ -1,22 +1,13 @@
-FROM render/base:latest
+FROM ubuntu:latest
 
-# Set the working directory in the container
-WORKDIR /app
+RUN apt-get update
+RUN apt-get install -y python3 python3-pip
 
-# Copy the requirements file
-COPY requirements.txt .
+WORKDIR /main
 
-# Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+COPY . /main
 
-# Copy the application code
-COPY . .
+COPY requirements.txt /tmp/requirements.txt
+RUN pip3 install -r /tmp/requirements.txt
 
-# Set environment variables, if needed
-# ENV VARIABLE_NAME=value
-
-# Expose the port on which your application listens
-EXPOSE 8000
-
-# Start the application
-CMD [ "python", "app.py" ]
+CMD ["python3", "main.py"]
