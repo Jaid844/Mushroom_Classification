@@ -5,7 +5,7 @@ import random
 import numpy as np
 from imblearn.under_sampling import RandomUnderSampler
 import os
-from imblearn.under_sampling import ClusterCentroids
+
 
 
 class preprocess:

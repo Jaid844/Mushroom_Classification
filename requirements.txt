@@ -16,6 +16,7 @@ jinja2	==3.1.2
 joblib==	1.2.0
 kiwisolver	==1.4.4
 kneed	==0.5.1
+imblearn
 markupsafe	==2.1.2
 matplotlib==	3.7.0
 numpy	==1.24.3
