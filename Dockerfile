@@ -1,13 +1,22 @@
-FROM ubuntu:latest
+FROM render/base:latest
 
-RUN apt-get update
-RUN apt-get install -y python3 python3-pip
+# Set the working directory in the container
+WORKDIR /app
 
-WORKDIR /main
+# Copy the requirements file
+COPY requirements.txt .
 
-COPY . /main
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
 
-COPY requirements.txt /tmp/requirements.txt
-RUN pip3 install -r /tmp/requirements.txt
-EXPOSE $PORT
-CMD gunicorn --workers=4 --bind 0.0.0.0:$PORT main:app
+# Copy the application code
+COPY . .
+
+# Set environment variables, if needed
+# ENV VARIABLE_NAME=value
+
+# Expose the port on which your application listens
+EXPOSE 8000
+
+# Start the application
+CMD [ "python", "app.py" ]
