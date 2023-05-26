@@ -209,3 +209,4 @@ class rawdata():
 
 #c=rawdata('path')
 #c.delete_modelfolder()
+#<div class=""><button class="form-control btn-primary" id="customfile">Custom File Predict</button></div>
