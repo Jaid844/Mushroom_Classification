@@ -39,3 +39,19 @@
 2023-05-24/20:10:01		Error happened ('Unable to connect to any servers', {'8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:a72e77bb-dd58-4cbb-88a9-df424c1bbbe5': OperationTimedOut('errors=Timed out creating connection (5 seconds), last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:6e307be2-c749-45f0-8541-a89abb0984e3': OperationTimedOut('errors=None, last_host=None'), '8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29042:9c448867-1817-4b28-bfd4-aeef64e94757': OperationTimedOut('errors=None, last_host=None')}) 
 2023-05-24/20:11:39		connection established
 2023-05-24/20:10:52		connection established
+2023-05-26/20:14:32		connection established
+2023-05-26/20:14:13		connection established
+2023-05-26/20:15:21		connection established
+2023-05-26/20:16:43		connection established
+2023-05-26/20:19:01		Error happened Unable to connect to the metadata service at https://8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console.  
+2023-05-26/20:19:16		Error happened Unable to connect to the metadata service at https://8efa878f-e89e-438b-961f-8fec7d4b3906-asia-south1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console.  
+2023-05-26/21:09:17		connection established
+2023-05-26/21:08:56		connection established
+2023-05-26/21:49:02		connection established
+2023-05-26/21:49:06		connection established
+2023-05-26/21:49:47		connection established
+2023-05-27/10:58:48		connection established
+2023-05-27/10:58:50		connection established
+2023-05-27/10:59:20		connection established
+2023-05-27/10:55:13		connection established
+2023-05-27/10:55:04		connection established

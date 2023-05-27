@@ -25,7 +25,7 @@ class db:
         try:
             self.file = open("Training_Logs/DataBaseConnectionLog.txt", 'a+')
             cloud_config = {
-                'secure_connect_bundle': r'Database_cred/secure-connect-ineuron.zip'
+                'secure_connect_bundle': r'C:\Users\91639\Downloads\secure-connect-ineuron.zip'
             }
             auth_provider = PlainTextAuthProvider('DFuaqgwrhjzNIxpEZZpUpbgx',
                                                   'lBES3bwUE0o2Nk2rfgLteEwSsOi0Zo3vdKpiRuAhMclqWqPwNvp6cLUgYBN-3osp0R8GfKNmBGP3zp7w10owex.Czt-ceCIcsOqlSYzZCKe9WLKPL+s4kGWCP0aHpl5q')

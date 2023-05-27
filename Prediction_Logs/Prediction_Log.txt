@@ -75,3 +75,36 @@
 2023-05-24/20:12:41		Start of Validation on files for prediction!!
 2023-05-24/20:12:41		Start of Prediction
 2023-05-24/20:12:41		End of Prediction
+2023-05-26/21:48:59		Start of Validation on files for prediction!!
+2023-05-26/21:48:59		Raw Data Validation Complete!!
+2023-05-26/21:48:59		DataTransformation Complete
+2023-05-26/21:48:59		Creating Prediction_Database and tables on the basis of given schema!!!
+2023-05-26/21:49:02		Table creation Completed!!
+2023-05-26/21:49:02		Insertion of Data into Table started!!!!
+2023-05-26/21:49:43		Insertion in Table completed!!!
+2023-05-26/21:49:43		Deleting Good Data Folder!!!
+2023-05-26/21:49:43		Good_Data folder deleted!!!
+2023-05-26/21:49:43		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-05-26/21:49:43		Bad files moved to archive!! Bad folder Deleted!!
+2023-05-26/21:49:43		Validation Operation completed!!
+2023-05-26/21:49:43		Extracting csv file from table
+2023-05-26/21:49:47		Start of Prediction
+2023-05-26/21:49:48		End of Prediction
+2023-05-27/10:58:46		Start of Validation on files for prediction!!
+2023-05-27/10:58:46		Raw Data Validation Complete!!
+2023-05-27/10:58:46		DataTransformation Complete
+2023-05-27/10:58:46		Creating Prediction_Database and tables on the basis of given schema!!!
+2023-05-27/10:58:48		Table creation Completed!!
+2023-05-27/10:58:48		Insertion of Data into Table started!!!!
+2023-05-27/10:59:18		Insertion in Table completed!!!
+2023-05-27/10:59:18		Deleting Good Data Folder!!!
+2023-05-27/10:59:18		Good_Data folder deleted!!!
+2023-05-27/10:59:18		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-05-27/10:59:18		Bad files moved to archive!! Bad folder Deleted!!
+2023-05-27/10:59:18		Validation Operation completed!!
+2023-05-27/10:59:18		Extracting csv file from table
+2023-05-27/10:59:20		Start of Prediction
+2023-05-27/10:59:20		End of Prediction
+2023-05-27/11:00:24		Start of Validation on files for prediction!!
+2023-05-27/11:00:24		Start of Prediction
+2023-05-27/11:00:25		End of Prediction

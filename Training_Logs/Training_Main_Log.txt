@@ -103,3 +103,55 @@
 2023-05-24/20:11:55		error [WinError 3] The system cannot find the path specified: ''
 2023-05-24/20:12:38		error [WinError 3] The system cannot find the path specified: 'Prediction_Batch_files'
 2023-05-24/20:12:41		error [WinError 3] The system cannot find the path specified: ''
+2023-05-26/20:21:04		Start of Validation on files for Training!!
+2023-05-26/20:21:05		raw file validated
+2023-05-26/20:21:05		Starting Data Transforamtion!!
+2023-05-26/20:21:05		DataTransformation Completed!!!
+2023-05-26/20:21:05		Creating Training_Database and tables on the basis of given schema!!!
+2023-05-26/20:21:11		Table creation Completed!!
+2023-05-26/20:21:11		Insertion of Data into Table started!!!!
+2023-05-26/20:21:58		Insertion in Table completed!!!
+2023-05-26/20:21:58		Deleting Good Data Folder!!!
+2023-05-26/20:21:58		Good_Data folder deleted!!!
+2023-05-26/20:21:58		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-05-26/20:21:58		Bad files moved to archive!! Bad folder Deleted!!
+2023-05-26/20:21:58		Validation Operation completed!!
+2023-05-26/20:21:58		Extracting csv file from table
+2023-05-26/20:22:06		X.shape before imb (625, 61)
+2023-05-26/20:22:06		X.shape after imb (126, 61)
+2023-05-26/20:22:11		Successful End of Training
+2023-05-26/21:46:05		Start of Validation on files for Training!!
+2023-05-26/21:46:05		raw file validated
+2023-05-26/21:46:05		Starting Data Transforamtion!!
+2023-05-26/21:46:05		DataTransformation Completed!!!
+2023-05-26/21:46:05		Creating Training_Database and tables on the basis of given schema!!!
+2023-05-26/21:46:10		Table creation Completed!!
+2023-05-26/21:46:10		Insertion of Data into Table started!!!!
+2023-05-26/21:46:59		Insertion in Table completed!!!
+2023-05-26/21:46:59		Deleting Good Data Folder!!!
+2023-05-26/21:46:59		Good_Data folder deleted!!!
+2023-05-26/21:46:59		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-05-26/21:46:59		Bad files moved to archive!! Bad folder Deleted!!
+2023-05-26/21:46:59		Validation Operation completed!!
+2023-05-26/21:46:59		Extracting csv file from table
+2023-05-26/21:47:05		X.shape before imb (625, 61)
+2023-05-26/21:47:05		X.shape after imb (126, 61)
+2023-05-26/21:47:10		Successful End of Training
+2023-05-27/10:57:20		Start of Validation on files for Training!!
+2023-05-27/10:57:20		raw file validated
+2023-05-27/10:57:20		Starting Data Transforamtion!!
+2023-05-27/10:57:20		DataTransformation Completed!!!
+2023-05-27/10:57:20		Creating Training_Database and tables on the basis of given schema!!!
+2023-05-27/10:57:22		Table creation Completed!!
+2023-05-27/10:57:22		Insertion of Data into Table started!!!!
+2023-05-27/10:57:54		Insertion in Table completed!!!
+2023-05-27/10:57:54		Deleting Good Data Folder!!!
+2023-05-27/10:57:54		Good_Data folder deleted!!!
+2023-05-27/10:57:54		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-05-27/10:57:54		Bad files moved to archive!! Bad folder Deleted!!
+2023-05-27/10:57:54		Validation Operation completed!!
+2023-05-27/10:57:54		Extracting csv file from table
+2023-05-27/10:57:57		X.shape before imb (625, 61)
+2023-05-27/10:57:57		X.shape after imb (126, 61)
+2023-05-27/10:58:00		Successful End of Training
+2023-05-27/11:00:24		error [WinError 3] The system cannot find the path specified: 'Prediction_Batch_files'
