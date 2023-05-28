@@ -2,7 +2,6 @@ from cassandra.cluster import Cluster
 from cassandra.auth import PlainTextAuthProvider
 from os import listdir
 import csv
-from raw.Rawfile import rawdata
 from log.applogger import Applogger
 
 
@@ -115,6 +114,6 @@ class db:
              # self.log.log(log_file, "File exporting failed. Error : %s" % e)
              # log_file.close()
 
-c=db()
-c.connection()
+#c=db()
+#c.connection()
 

@@ -144,13 +144,13 @@ class db:
 
 
 
-d=db()
+#d=db()
 #r=rawdata(r'C:\Users\91639\Desktop\Mushroom\Training_Batch_Files')
 ##length_of_time,length_of_date,no_of_col,col_name=r.valuesfromschem()
 #d.table_create(col_name)
 #d.adding_data(col_name)
 #d.filefromdb()
-d.connection()
+#d.connection()
 #d.t()
 
 
