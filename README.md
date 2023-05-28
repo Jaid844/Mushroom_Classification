@@ -49,7 +49,7 @@ Analyze the prediction output, which will indicate whether the mushroom is class
 Results
 ## Architecture![pipeline](https://github.com/Jaid844/InsuranceFraudDetector/assets/112820053/84ef6ccf-ff79-4e74-a124-280f0eaa0f11)
 ## Technology Used
-Python ,Flask,scikit-learn,Gunicorn,Sqlite,
+Python ,Flask,scikit-learn,Gunicorn,Cassandra
 ## How to Get Started
 
 ## Clone the Project
