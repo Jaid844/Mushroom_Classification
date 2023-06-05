@@ -3,6 +3,7 @@
 This project focuses on the classification of mushrooms into edible or poisonous categories. It utilizes machine learning algorithms to build a model that can predict the edibility of a given mushroom based on its characteristics.
 The deployment link is available in render and the link is 
 https://mushrrom2.onrender.com
+
 but the UI design is limited ,works well with postman calls
 
 ## Dataset
